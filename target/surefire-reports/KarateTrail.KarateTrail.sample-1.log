@@ -1,0 +1,61 @@
+16:18:03.111 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+16:18:05.143 request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+16:18:05.658 response time in milliseconds: 511.69
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4283
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5f8308f85e5669a1-BOM
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 26 Nov 2020 10:48:05 GMT
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=e1R2GBkMfhG6yRY65cSTDUe8sedA%2Bl2p05nwhrIN5frXdIzIY2XKE7%2FQctwfSro04QJxDbgHPzQk046evjwKUirw8e%2BLUjDuMfk%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d9c8b6fdfd31613307afb636b1b89f2221606387685; expires=Sat, 26-Dec-20 10:48:05 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 06a5c3ef34000069a1ad9d6000000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+16:18:05.768 request:
+2 > POST https://reqres.in/api/users
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 31
+2 > Content-Type: application/json; charset=UTF-8
+2 > Cookie: __cfduid=d9c8b6fdfd31613307afb636b1b89f2221606387685
+2 > Host: reqres.in
+2 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+{"name":"monta","job":"leader"}
+
+16:18:06.202 response time in milliseconds: 433.23
+2 < 201
+2 < Access-Control-Allow-Origin: *
+2 < CF-Cache-Status: DYNAMIC
+2 < CF-RAY: 5f8308fa0cc42e65-BOM
+2 < Connection: keep-alive
+2 < Content-Length: 81
+2 < Content-Type: application/json; charset=utf-8
+2 < Date: Thu, 26 Nov 2020 10:48:05 GMT
+2 < Etag: W/"51-6AqKZbiJdKDrK6fFLbIEPm0Q8+U"
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < NEL: {"report_to":"cf-nel","max_age":604800}
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=2O66wGBQeaClpJRykpLl%2FQv5v%2F7pxr7GaiAKKr6yeWP%2F8%2BztUCpLwIROS2g3ySB7oJzsqmdkOTdwPp2GcsAV8o67cChBuCmtolM%3D"}],"group":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < Via: 1.1 vegur
+2 < X-Powered-By: Express
+2 < cf-request-id: 06a5c3f04500002e65371fb000000001
+{"name":"monta","job":"leader","id":"160","createdAt":"2020-11-26T10:48:05.678Z"}
+
